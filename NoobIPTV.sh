@@ -467,7 +467,7 @@ install_Doubebly() {
 
     IMAGE_SOURCE_OFIII="doubebly/doube-ofiii"
     IMAGE_SOURCE_ITV="doubebly/doube-itv"
-    PROXY_IMAGE_SOURCE_OFIII="$REVERSE_PROXY/doubebly/doube-ofiii"
+    PROXY_IMAGE_SOURCE_OFIII="$REVERSE_PROXY/doubebly/doube-ofiii:1.0.4"
     PROXY_IMAGE_SOURCE_ITV="$REVERSE_PROXY/doubebly/doube-itv"
 
     # 下载镜像
